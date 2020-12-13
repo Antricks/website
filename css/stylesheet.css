@@ -39,6 +39,33 @@ hr {
     background-color: #3c3836;
 }
 
+.image-small {
+    width: auto;
+    height: 200px;
+    box-shadow: 5px 5px 5px #111;
+    border: 5px solid #3c3836;
+}
+
+.image-normal {
+    width: auto;
+    height: 400px;
+    box-shadow: 5px 5px 5px #111;
+    border: 5px solid #3c3836;
+}
+
+.image-full {
+    width: calc(100% - 10px);
+    height: auto;
+    box-shadow: 5px 5px 5px #111;
+    border: 5px solid #3c3836;
+}
+
+.center-horizontally {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .icon-h1 {
     height: 24pt;
     width: auto;
