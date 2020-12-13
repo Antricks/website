@@ -6,6 +6,10 @@ body {
 	text-align: justify;
 }
 
+p, code {
+    font-size:13pt;
+}
+
 code {
     background-color: #1d2021;
     border: 2px solid #3c3836;
@@ -30,7 +34,7 @@ h3 {
 }
 
 hr {
-    height: 3px;
+    border: 2px solid;
     color: #3c3836;
     background-color: #3c3836;
 }
@@ -77,12 +81,44 @@ hr {
     color: #d3869b;
 }
 
+.dark-red {
+    color: #cc241d;
+}
+
+.dark-orange {
+    color: #d65d0e;
+}
+
+.dark-yellow {
+    color: #d79921;
+}
+
+.dark-green {
+    color: #98971a;
+}
+
+.dark-aqua {
+    color: #689d6a;
+}
+
+.dark-blue {
+    color: #458588;
+}
+
+.dark-purple {
+    color: #b16286;
+}
+
 .gray {
     color: #928374;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .card {
