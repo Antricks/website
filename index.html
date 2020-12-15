@@ -20,7 +20,7 @@
 	<meta name="description" content="This website is supposed to become a programming related blog-ish thing where I share my progress on different projects. I'm not very actively working on it since I'm currently lacking time to do so. The code of this website is, just like most of the things I do, completely open source.I'm a big fan of both open source and online privacy in general.">
 	<meta name="keywords" content="programming, tech, hacking, open source, development">
 	<meta name="keywords" lang="de" content="programmieren, technologie, entwicklung">
-
+	
 	<title>MoFa Games | Home</title>
 </head>
 
@@ -63,16 +63,16 @@
 		<hr>
 		<h2>Further / Weiteres</h2>
 		<p>
-			You can find some useful stuff for CTF and hacking such as <a class="yellow">reverse shells, RCE, privesc and wordlists</a> under <a href="https://cyber.mofagames.de/" class="bold green">https://cyber.mofagames.de/</a>
+			You can find some useful stuff for CTF and hacking such as <span class="yellow">reverse shells, RCE, privesc and wordlists</span> under <a href="https://cyber.mofagames.de/" class="bold green">https://cyber.mofagames.de/</a>
 		</p>
 		<p>
-			Falls du berechtigt bist, kannst du auch meinen <a class="yellow">Fileupload / Cloudserver </a> nutzen, der
+			Falls du berechtigt bist, kannst du auch meinen <span class="yellow">Fileupload / Cloudserver </span> nutzen, der
 			unter
 			<a href="https://cloud.mofagames.de/" class="bold green">https://cloud.mofagames.de/</a> erreichbar ist.
 		</p>
 		<p>
-			Falls du nach meinem Handout im Fach Geschichte zum Thema <a class="italic yellow">"Zwangsvereinigung der
-				SPD und KPD zur SED"</a>
+			Falls du nach meinem Handout im Fach Geschichte zum Thema <span class="italic yellow">"Zwangsvereinigung der
+				SPD und KPD zur SED"</span>
 			suchst, kannst du dieses <a href="https://mofagames.de/geschichte/zwangsvereinigung-spd-kpd-zu-sed.pdf" class="bold green">hier</a> finden.
 		</p>
 	</div>
@@ -81,16 +81,16 @@
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 		</h2>
 		<p>
-			Lorem <a class="purple">ipsum</a> dolor <a class="aqua">sit</a>, <a class="aqua">amet</a> consectetur
-			adipisicing <a class="aqua">elit</a>. Praesentium veritatis blanditiis nisi est vitae
-			minus natus <a class="aqua">consectetur</a> voluptate <a class="blue">quod</a> expedita mollitia, enim
-			nostrum <a class="aqua">fugit</a> aperiam inventore et quidem eos
-			dicta <a class="blue">quae</a>, <a class="aqua">sit</a> doloremque, <a class="aqua">suscipit</a> 
-			<a class="blue">quis</a>!
+			Lorem <span class="purple">ipsum</span> dolor <span class="aqua">sit</span>, <span class="aqua">amet</span> consectetur
+			adipisicing <span class="aqua">elit</span>. Praesentium veritatis blanditiis nisi est vitae
+			minus natus <span class="aqua">consectetur</span> voluptate <span class="blue">quod</span> expedita mollitia, enim
+			nostrum <span class="aqua">fugit</span> aperiam inventore et quidem eos
+			dicta <span class="blue">quae</span>, <span class="aqua">sit</span> doloremque, <span class="aqua">suscipit</span> 
+			<span class="blue">quis</span>!
 		</p>
 		<img src="/img/example.jpg" class="image-small center-horizontally">
 		<hr>
-		<p><a class="bold red">Never</a> run this command, ever: <code>sudo rm -rf /</code></p>
+		<p><span class="bold red">Never</span> run this command, ever: <code>sudo rm -rf /</code></p>
 		<pre class="syntax-highlight">
 for i in range(0, 1337):
 	print("Hello my hackers!")
@@ -113,16 +113,16 @@ for i in range(0, 1337):
 		var sqlReg = /\b(CREATE|ALL|DATABASE|TABLE|GRANT|PRIVILEGES|IDENTIFIED|FLUSH|SELECT|UPDATE|DELETE|INSERT|FROM|WHERE|ORDER|BY|GROUP|LIMIT|INNER|OUTER|AS|ON|COUNT|CASE|TO|IF|WHEN|BETWEEN|AND|OR)(?=[^\w])/g;
 
 		function codeHighlight(text) {
-			var parsed = text.replace(strReg1, '<a class="green">"$1"</a>');
-			parsed = parsed.replace(strReg2, '<a class="green">\'$1\'</a>');
-			parsed = parsed.replace(specialReg, '<a class="orange">$1</a>');
-			parsed = parsed.replace(specialJsGlobReg, '<a class="blue">$1</a>');
-			parsed = parsed.replace(specialJsReg, '<a class="yellow">$1</a>');
-			parsed = parsed.replace(specialMethReg, '<a class="yellow">$1</a>');
-			parsed = parsed.replace(htmlTagReg, '<a class="aqua">$1</a>');
-			parsed = parsed.replace(sqlReg, '<a class="purple">$1</a>');
-			parsed = parsed.replace(specialCommentReg, '<a class="gray">$1</a>');
-			parsed = parsed.replace(inlineCommentReg, '<a class="gray">$1</a>');
+			var parsed = text.replace(strReg1, '<span class="green">"$1"</span>');
+			parsed = parsed.replace(strReg2, '<span class="green">\'$1\'</span>');
+			parsed = parsed.replace(specialReg, '<span class="orange">$1</span>');
+			parsed = parsed.replace(specialJsGlobReg, '<span class="blue">$1</span>');
+			parsed = parsed.replace(specialJsReg, '<span class="yellow">$1</span>');
+			parsed = parsed.replace(specialMethReg, '<span class="yellow">$1</span>');
+			parsed = parsed.replace(htmlTagReg, '<span class="aqua">$1</span>');
+			parsed = parsed.replace(sqlReg, '<span class="purple">$1</span>');
+			parsed = parsed.replace(specialCommentReg, '<span class="gray">$1</span>');
+			parsed = parsed.replace(inlineCommentReg, '<span class="gray">$1</span>');
 			
 			return(parsed);
 		}
